@@ -1,0 +1,11 @@
+Config { username = "<gmail account without @gmail.com>",
+         password = "<password>",
+         subject = "Server is down!",
+         body = "Go check it out!",
+         fromAddressLabel = "<server process>",
+         fromAddressEmail = "<gmail account with @gmail.com>",
+         toAddressLabel = "<server admin name>",
+         toAddressEmail = "<server admin url>",
+         serverUrl = "http://<server_url>",
+         serverHeaderCriteria = "gunicorn/17.5"
+       }
